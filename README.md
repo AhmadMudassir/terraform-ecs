@@ -20,8 +20,8 @@ The infrastructure includes:
 
 ## 🖼 Architecture Diagram
 
-![Architecture Diagram](images/architecture.png)  
-*(Add this image to the repo under `images/` folder)*
+![ECS_Terraform_Dark](https://github.com/user-attachments/assets/f074e36b-a237-4a73-962f-05557902ca57)
+
 
 ---
 
