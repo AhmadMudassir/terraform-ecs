@@ -94,15 +94,3 @@ terraform destroy
 ```
 
 ---
-
-## 🙋 Author
-
-**Ahmad Mudassir**  
-Cloud Intern  
-[LinkedIn](https://www.linkedin.com/in/your-profile)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
