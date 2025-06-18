@@ -42,9 +42,6 @@ The infrastructure includes:
 .
 ├── main.tf               # All infrastructure definitions
 ├── variables.tf          # Input variables
-├── outputs.tf            # Output values (e.g. public IP)
-├── images/
-│   └── architecture.png  # Architecture diagram
 └── README.md             # Project documentation
 ```
 
