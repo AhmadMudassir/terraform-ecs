@@ -60,8 +60,8 @@ The infrastructure includes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/AhmadMudassir/terraform-ecs.git
+   cd terraform-ecs
    ```
 
 2. **Initialize Terraform**
@@ -80,7 +80,7 @@ The infrastructure includes:
    ```
 
 5. **Verify the deployment**
-   - Get the public IP from Terraform output or ECS console
+   - Get the public IP from ECS console
    - Visit: `http://<public-ip>` in your browser
 
 ---
