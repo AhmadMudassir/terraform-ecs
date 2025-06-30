@@ -89,11 +89,11 @@ resource "aws_ecs_task_definition" "ahmad-taskdef-terra" {
   cpu = 1024
   memory = 2048
   
-  execution_role_arn = "arn:aws:iam::504649076991:role/ecsTaskExecutionRole"
+  execution_role_arn = "arn:aws:iam::<aws_account_id>:role/ecsTaskExecutionRole"
   container_definitions = jsonencode([
     {
         name = "nginx-terra"
-        image = "504649076991.dkr.ecr.us-east-2.amazonaws.com/ahmad-repo-terra:v1"
+        image = "<aws_account_id>.dkr.ecr.<region>.amazonaws.com/<repo-name>:v1"
         cpu = 1024
         memory = 2048
         essential = true
